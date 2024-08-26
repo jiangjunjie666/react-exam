@@ -1,0 +1,48 @@
+.subjectAdd {}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80px;
+  width: 100%;
+}
+
+.top .title {
+  padding-left: 10px;
+  margin: 0 20px;
+  border-left: 5px solid #32c2ee;
+}
+
+.top .title h2 {
+  display: inline-block;
+  /* 确保 h2 标签的高度为其文字的高度 */
+  margin: 0;
+  /* 去掉默认的 margin，避免影响高度 */
+  line-height: 24px;
+}
+
+.top .btn {
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  height: calc(100vh - 230px);
+
+}
+
+.content .left {
+  background-color: rgb(48, 195, 231);
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.content .right {
+  background-color: pink;
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
